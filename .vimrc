@@ -6,6 +6,7 @@ set wildmenu
 set smarttab
 set smartindent
 set mouse=a
+set viminfo=
 
 " --- mappings ---
 " move between buffers
