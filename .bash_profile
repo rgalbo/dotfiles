@@ -22,6 +22,7 @@ export NVM_DIR="$HOME/.nvm"
 # This loads nvm bash_completion
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  
 
+# --- bashrc ---
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
@@ -32,3 +33,7 @@ fi
 if [ -d "$HOME/bin" ] ; then
             PATH="$HOME/bin:$PATH"
 fi
+
+# --- personals ---
+export EDITOR=/usr/local/bin/vim
+export VISUAL=/usr/local/bin/vim
