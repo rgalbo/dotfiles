@@ -1,0 +1,105 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.quickSuggestionsDelay": 5,
+    "editor.rulers": [80,120],
+    //python
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["-S", "--line-length", "80"],    
+    "workbench.colorTheme": "Default Light+",
+    "window.zoomLevel": 2,
+    "editor.minimap.enabled": false,
+
+    //VSCodeVim settings
+    // "vim.statusBarColorControl": true,
+    // "vim.sneak": true,
+    // "vim.incsearch": true,
+    // "vim.useSystemClipboard": true,
+    // "vim.hlsearch": true,
+    // "vim.insertModeKeyBindings": [
+    //     {
+    //         "before": [
+    //             "j",
+    //             "j"
+    //         ],
+    //         "after": [
+    //             "<Esc>"
+    //         ]
+    //     }
+    // ],
+    // "vim.normalModeKeyBindingsNonRecursive": [
+    //     {
+    //         "before": [
+    //             ">"
+    //         ],
+    //         "commands": [
+    //             "editor.action.indentLines"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<"
+    //         ],
+    //         "commands": [
+    //             "editor.action.outdentLines"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "leader",
+    //             "d"
+    //         ],
+    //         "after": [
+    //             "d",
+    //             "d"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "leader",
+    //             "w"
+    //         ],
+    //         "commands": [
+    //             "workbench.action.files.save",
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<C-n>",
+    //             "n"
+    //         ],
+    //         "commands": [
+    //             ":nohl"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<CR>"
+    //         ],
+    //         "commands": [
+    //             "G"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "leader",
+    //             "b"
+    //         ],
+    //         "commands": [
+    //             "window.menuBarVisibility"
+    //         ]
+    //     }
+    // ],
+    // "vim.leader": "<space>",
+    // "vim.handleKeys": {
+    //     "<C-a>": false,
+    //     "<C-f>": false,
+    //     "<C-b>": false
+    // },
+    // "vim.disableExtension": true,
+    // "window.zoomLevel": 0,
+    // "workbench.colorCustomizations": {
+    //     "statusBar.background": "#005f5f",
+    //     "statusBar.noFolderBackground": "#005f5f",
+    //     "statusBar.debuggingBackground": "#005f5f"
+    // },
+}
