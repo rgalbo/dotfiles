@@ -6,7 +6,7 @@
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": ["-S", "--line-length", "80"],    
     "workbench.colorTheme": "Default Light+",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
 
     //VSCodeVim settings

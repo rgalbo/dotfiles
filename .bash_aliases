@@ -10,7 +10,7 @@ alias lng="npm list -g --depth 0"
 alias vi="vim"
 alias connect-r="sudo openvpn `ls /etc/openvpn/ovpn_udp/us* | shuf -n 1`"
 alias connect-l="sudo openvpn /etc/openvpn/ovpn_udp/us885.nordvpn.com.udp.ovpn"
-alias note="vi ~/Documents/notes"
+# alias note="vi ~/Documents/notes"
 alias clean-note="rm ~/Documents/notes/.*.sw*"
 alias see="xdg-open ~/Pictures"
 

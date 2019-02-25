@@ -1,3 +1,4 @@
+" --- config ---
 filetype plugin indent on
 syntax on
 set nocompatible
@@ -22,6 +23,7 @@ set shell=/bin/bash\ -i
 set shellcmdflag=-ic
 set viminfo=
 set mouse=a
+au TextChanged,TextChangedI <buffer> silent write
 
 " --- language specific ---
 au BufNewFile,BufRead *.py setlocal foldlevel=0 tabstop=4 softtabstop=4 shiftwidth=4 textwidth=79 expandtab
