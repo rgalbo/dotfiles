@@ -2,12 +2,16 @@
     "files.autoSave": "afterDelay",
     "editor.quickSuggestionsDelay": 5,
     "editor.rulers": [80,120],
+    "workbench.colorTheme": "Default Light+",
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
     //python
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": ["-S", "--line-length", "80"],    
-    "workbench.colorTheme": "Default Light+",
-    "window.zoomLevel": 1,
-    "editor.minimap.enabled": false,
+    //js
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
 
     //VSCodeVim settings
     // "vim.statusBarColorControl": true,

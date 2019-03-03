@@ -23,7 +23,7 @@ set shell=/bin/bash\ -i
 set shellcmdflag=-ic
 set viminfo=
 set mouse=a
-au TextChanged,TextChangedI <buffer> silent write
+autocmd TextChanged,TextChangedI <buffer> silent write
 
 " --- language specific ---
 au BufNewFile,BufRead *.py setlocal foldlevel=0 tabstop=4 softtabstop=4 shiftwidth=4 textwidth=79 expandtab
@@ -59,5 +59,5 @@ nnoremap <leader>y "+y
 au FileType c,cpp,java,scala,javascript let b:comment_leader = '// '
 au FileType sh,ruby,python              let b:comment_leader = '# '
 au FileType vim                         let b:comment_leader = '" '
-noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
-noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
+noremap <silent> ,/ :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
+noremap <silent> ,? :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>

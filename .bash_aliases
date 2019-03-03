@@ -2,11 +2,13 @@
 alias ll="ls -alhF"
 alias la="ls -AhF"
 alias lh="ls -dlhF .*"
+alias lt="ls -tF"
 alias l="ls -CF"
 alias lcc="ls ~/.cookiecutters"
 alias lng="npm list -g --depth 0"
+alias lnl="npm list --depth 0"
 
-# --- ali ---
+# --- alias ---
 alias vi="vim"
 alias connect-r="sudo openvpn `ls /etc/openvpn/ovpn_udp/us* | shuf -n 1`"
 alias connect-l="sudo openvpn /etc/openvpn/ovpn_udp/us885.nordvpn.com.udp.ovpn"
