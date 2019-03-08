@@ -51,8 +51,10 @@ vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 " --- leader ---
 let mapleader = ","
+nnoremap <leader>r :Explore .<CR>
 nnoremap <leader>p "+p
-nnoremap <leader>y "+y
+vnoremap <leader>p "+p
+vnoremap <leader>y "+y
 " copy
 " --- commenting ---
 " Commenting blocks of code.
