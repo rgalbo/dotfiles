@@ -36,6 +36,9 @@ au InsertLeave * set nocursorline
 
 " --- mappings ---
 "
+" default move over line wraps
+map j gj
+map k gk
 " move between splits
 map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
@@ -54,6 +57,7 @@ let mapleader = ","
 nnoremap <leader>r :Explore .<CR>
 nnoremap <leader>p "+p
 vnoremap <leader>p "+p
+inoremap <leader>p <Esc>"+pi
 vnoremap <leader>y "+y
 " copy
 " --- commenting ---

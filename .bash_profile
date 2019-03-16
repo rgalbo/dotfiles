@@ -37,3 +37,13 @@ fi
 # --- personals ---
 export EDITOR=/usr/local/bin/vim
 export VISUAL=/usr/local/bin/vim
+
+# --- tiny-care-terminal ---
+export TTC_BOTS="tinycarebot,selfcare_bot,magicrealismbot"
+export TTC_REPOS="~/Documents"
+export TTC_REPOS_DEPTH=5
+export TTC_UPDATE_INTERVAL=20
+export TTC_APIKEYS=false
+export TTC_WEATHER="Chicago"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
