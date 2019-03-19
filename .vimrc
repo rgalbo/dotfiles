@@ -52,6 +52,7 @@ inoremap <C-j> <Esc>:m .+1<CR>==gi
 inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
+
 " --- leader ---
 let mapleader = ","
 nnoremap <leader>r :Explore .<CR>
@@ -60,6 +61,7 @@ vnoremap <leader>p "+p
 inoremap <leader>p <Esc>"+pi
 vnoremap <leader>y "+y
 " copy
+
 " --- commenting ---
 " Commenting blocks of code.
 au FileType c,cpp,java,scala,javascript let b:comment_leader = '// '
