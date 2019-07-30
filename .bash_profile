@@ -1,12 +1,3 @@
-# --- pyenv load on startup --- 
-export PATH="~/.pyenv/bin/:$PATH"
-eval "$(pyenv init -)"
-
-# --- pyenv virtualenvwrapper --- 
-export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
-export WORKON_HOME=$HOME/.virtualenvs
-pyenv virtualenvwrapper_lazy
-
 # --- hub ---
 export PATH="$PATH:$HOME/Apps/hub-linux/bin/"
 # --- hub autocomplete --- 
@@ -21,6 +12,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  
 # This loads nvm bash_completion
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  
+
+# --- the fuck ---
+eval $(thefuck --alias)
 
 # --- bashrc ---
 if [ -n "$BASH_VERSION" ]; then

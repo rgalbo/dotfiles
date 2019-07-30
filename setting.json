@@ -18,4 +18,9 @@
     "prettier.singleQuote": true,
     "prettier.jsxSingleQuote": true,
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
