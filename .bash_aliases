@@ -4,9 +4,6 @@ alias la="ls -AhF"
 alias lh="ls -dlhF .*"
 alias lt="ls -tF"
 alias l="ls -CF"
-alias lcc="ls ~/.cookiecutters"
-alias lng="npm list -g --depth 0"
-alias lnl="npm list --depth 0"
 
 # --- alias ---
 alias vi="vim"
