@@ -10,12 +10,6 @@ alias lnl="npm list --depth 0"
 
 # --- alias ---
 alias vi="vim"
-alias connect-r="sudo openvpn `ls /etc/openvpn/ovpn_udp/us* | shuf -n 1`"
-alias connect-l="sudo openvpn /etc/openvpn/ovpn_udp/us885.nordvpn.com.udp.ovpn"
-alias connect-t="sudo openvpn /etc/openvpn/ovpn_tcp/us885.nordvpn.com.tcp.ovpn"
-# alias note="vi ~/Documents/notes"
-alias clean-note="rm ~/Documents/notes/.*.sw*"
-alias see="xdg-open ~/Pictures"
 
 # --- git ---
 alias gst="git status"
@@ -31,17 +25,12 @@ alias dils="docker images"
 alias dps="docker ps"
 
 # --- quick edit ---
-alias ev="vi ~/.vimrc"
-alias ep="vi ~/.bash_profile"
-alias ea="vi ~/.bash_aliases"
-alias eb="vi ~/.bashrc"
-alias ez="vi ~/.zshrc"
-alias et="vi ~/.tmux.conf"
+alias ev="vi ~/Documents/dotfiles/.vimrc"
+alias ep="vi ~/Documents/dotfiles/.bash_profile"
+alias ea="vi ~/Documents/dotfiles/.bash_aliases"
+alias eb="vi ~/Documents/dotfiles/.bashrc"
+alias et="vi ~/Documents/dotfiles/tmux.conf"
 
 # --- reload ---
-alias relz="source ~/.zshrc"
 alias relb="source ~/.bash_profile"
 alias relt="tmux source-file ~/.tmux.conf"
-# --- zsh ---
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
