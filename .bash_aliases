@@ -10,7 +10,6 @@ alias lnl="npm list --depth 0"
 
 # --- alias ---
 alias vi="vim"
-
 # --- git ---
 alias gst="git status"
 alias glg="git log"
@@ -28,9 +27,9 @@ alias dps="docker ps"
 alias ev="vi ~/Documents/dotfiles/.vimrc"
 alias ep="vi ~/Documents/dotfiles/.bash_profile"
 alias ea="vi ~/Documents/dotfiles/.bash_aliases"
-alias eb="vi ~/Documents/dotfiles/.bashrc"
 alias et="vi ~/Documents/dotfiles/tmux.conf"
 
 # --- reload ---
 alias relb="source ~/.bash_profile"
 alias relt="tmux source-file ~/.tmux.conf"
+alias dot-update = "cp ~/Documents/dotfiles/.* ~/"
